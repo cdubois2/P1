@@ -1,0 +1,109 @@
+/* <!-- Chris Dubois --> */
+h1{
+	font-family: helvetica;
+	text-align: center;
+	text-decoration: underline overline;
+    padding: 10px;
+    color:lightgrey;
+}
+p,a,h3{
+    font-family: helvetica;
+    color:#050036;
+    padding: 10px;
+    font-size: 130%;
+
+}
+h2{
+    font-family: helvetica;
+    color:#050036;
+    padding: 10px;
+    font-size: 400%;
+    text-align: center;
+}
+a.fill{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration:none;
+}
+
+footer {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-family: helvetica;
+    border: 1px solid white;
+}
+
+#green {
+    width: 55%;
+    height: 600px;
+    padding-bottom:15px;
+    border: 5px solid #4169E1;
+    float: left;
+    margin: 5px;
+    background-color: #00BFFF;
+}
+#inner-green
+{
+    height: 575px;
+    margin: 10px;
+    background-color: #F0F8FF;
+}
+
+#red {
+    width: 39%;
+    height:615px;
+    border: 5px solid #4169E1;
+    margin: 5px;
+    float: right;
+    background-color: pink;
+    background-image:url("img/dark.jpg");
+}
+#red-2{
+    width: 39%;
+    height:615px;
+    border: 5px solid #4169E1;
+    margin: 5px;
+    float: right;
+    background-color: pink;
+    background-image:url("img/into.jpg");
+}
+
+#red-3{
+    width: 39%;
+    height:615px;
+    border: 5px solid #4169E1;
+    margin: 5px;
+    float: right;
+    background-color: pink;
+    background-image:url("img/dark2.jpg");
+}
+
+#inner-red-top
+{
+    margin: 30px;
+    padding-right: 15px;
+    background-color: #BDA0CB;
+	filter: blur(2px);
+	transition: .2s ease-in-out;
+}
+#inner-red-top:hover{
+	filter: blur(0);
+}
+
+#inner-red-bot
+{
+    margin: 30px;
+    background-color: #BDA0CB;
+    filter: blur(2px);
+	transition: .2s ease-in-out;
+}
+
+#inner-red-bot:hover{
+	filter: blur(0);
+}
+
